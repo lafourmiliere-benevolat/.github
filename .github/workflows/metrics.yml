@@ -24,6 +24,6 @@ jobs:
           user: lafourmiliere-benevolat
 
           plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_detailed: no
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://lafourmiliere-benevolat.fr
