@@ -1,0 +1,57 @@
+# https://git-cliff.org/docs/configuration/
+# Canonical cliff.toml for lafourmiliere-benevolat repos. Conventional Commits,
+# Keep-a-Changelog header, signal-only (skips ci/chore/docs/style/test/build).
+
+[changelog]
+header = """
+# Changelog
+
+All notable changes to this project are documented here. The format is
+based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the
+project adheres to [Semantic Versioning](https://semver.org/).
+
+"""
+body = """
+{% if version -%}
+    ## {{ version | trim_start_matches(pat="v") }} — {{ timestamp | date(format="%Y-%m-%d") }}
+{% else -%}
+    ## Unreleased
+{% endif %}
+{% for group, commits in commits | group_by(attribute="group") %}
+    ### {{ group | upper_first }}
+    {% for commit in commits -%}
+        - {% if commit.scope %}**{{ commit.scope }}**: {% endif %}{{ commit.message | upper_first }}
+    {% endfor %}
+{% endfor %}
+"""
+trim = true
+
+[git]
+conventional_commits = true
+filter_unconventional = true
+filter_commits = true
+tag_pattern = "v[0-9]*"
+sort_commits = "newest"
+
+# With filter_commits = true above, any commit not assigned a group by a
+# parser below is dropped automatically. So chore/ci/docs/style/test/build
+# need no explicit skip rule — they fall through. One source of truth.
+commit_parsers = [
+  { message = "^feat", group = "Features" },
+  { message = "^fix", group = "Bug Fixes" },
+  { message = "^perf", group = "Performance" },
+  { message = "^refactor", group = "Refactoring" },
+  { message = "^security", group = "Security" },
+  { body = ".*BREAKING CHANGE", group = "Breaking Changes" },
+]
+
+commit_preprocessors = [
+  { pattern = "\\[skip ci\\]", replace = "" },
+  { pattern = " *\\(#[0-9]+\\)", replace = "" },
+  { pattern = "\nCo-authored-by: [^\n]+", replace = "" },
+]
+
+# tag_pattern requires a `v` prefix; cliff's default initial_tag (0.1.0)
+# would fail the first --bumped-version call.
+[bump]
+initial_tag = "v0.1.0"
