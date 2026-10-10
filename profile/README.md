@@ -14,9 +14,3 @@ Pour une question sur l’association, une envie de bénévolat ou une idée, é
 [bienvenue@lafourmiliere-benevolat.fr](mailto:bienvenue@lafourmiliere-benevolat.fr).
 Pour contribuer à un dépôt public, consultez ses consignes et ouvrez une issue ou une
 pull request sur le dépôt concerné.
-
-## Nous suivre
-
-[LinkedIn](https://linkedin.com/company/lafourmiliere) ·
-[Instagram](https://www.instagram.com/la.fourmiliere/) ·
-[Facebook](https://www.facebook.com/LaFourmiliereParis/)
