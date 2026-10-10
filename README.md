@@ -28,9 +28,3 @@ pris en charge et les règles de priorité sont documentées dans la
 - [`cliff.toml`](cliff.toml) est la configuration de référence pour git-cliff, mais GitHub ne la distribue pas aux autres dépôts. Les projets qui l’utilisent doivent la copier ou la synchroniser explicitement.
 - [`renovate.json`](renovate.json) configure Renovate pour ce dépôt.
 - [`.github/workflows/metrics.yml`](.github/workflows/metrics.yml) est l’automatisation historique de la carte Metrics. Son SVG n’est plus affiché sur le profil tant que l’automatisation n’a pas été remise en état et que l’image n’a pas été actualisée.
-
-## Dépôts publics
-
-- [renovate-config](https://github.com/lafourmiliere-benevolat/renovate-config) — configuration Renovate partagée
-- [capistrano-good_job](https://github.com/lafourmiliere-benevolat/capistrano-good_job) — intégration systemd de GoodJob pour Capistrano (archivé)
-- [.github](https://github.com/lafourmiliere-benevolat/.github) — ce dépôt
