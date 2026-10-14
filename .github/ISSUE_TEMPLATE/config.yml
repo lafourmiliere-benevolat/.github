@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question about La Fourmilière
+    url: https://lafourmiliere-benevolat.fr/
+    about: For the association or volunteering, email bienvenue@lafourmiliere-benevolat.fr instead of opening an issue.
+  - name: Report a security vulnerability
+    url: https://github.com/lafourmiliere-benevolat/.github/blob/master/SECURITY.md
+    about: Please report vulnerabilities privately, not in a public issue.
