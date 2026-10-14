@@ -10,7 +10,5 @@ Le bénévolat aussi convivial et accessible qu’un verre entre amis.
 
 ## Contribuer
 
-Pour une question sur l’association, une envie de bénévolat ou une idée, écrivez-nous à
-[bienvenue@lafourmiliere-benevolat.fr](mailto:bienvenue@lafourmiliere-benevolat.fr).
-Pour contribuer à un dépôt public, consultez ses consignes et ouvrez une issue ou une
-pull request sur le dépôt concerné.
+Consultez le [guide de contribution](https://github.com/lafourmiliere-benevolat/.github/blob/master/CONTRIBUTING.md),
+puis ouvrez une issue ou une pull request sur le dépôt concerné.
