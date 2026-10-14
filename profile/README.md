@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/profile/logo.png" width="400" alt="La Fourmilière" />
+  <img src="https://github.com/lafourmiliere-benevolat/.github/raw/master/profile/logo.png" width="400" alt="La Fourmilière" />
 </p>
 
 **La communauté qui rend le bénévolat fun et facile.**
