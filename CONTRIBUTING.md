@@ -25,8 +25,8 @@ expected, and what happened.
 
 ## Security
 
-Never report vulnerabilities in public issues. See [SECURITY.md](SECURITY.md).
+Never report vulnerabilities in public issues. See [SECURITY.md](https://github.com/lafourmiliere-benevolat/.github/blob/master/SECURITY.md).
 
 ## Code of Conduct
 
-By participating, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+By participating, you agree to follow our [Code of Conduct](https://github.com/lafourmiliere-benevolat/.github/blob/master/CODE_OF_CONDUCT.md).

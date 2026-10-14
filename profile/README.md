@@ -10,5 +10,6 @@ Le bénévolat aussi convivial et accessible qu’un verre entre amis.
 
 ## Contribuer
 
-Consultez le [guide de contribution](https://github.com/lafourmiliere-benevolat/.github/blob/master/CONTRIBUTING.md),
-puis ouvrez une issue ou une pull request sur le dépôt concerné.
+Un bug, une question technique ou une envie de coder avec nous ? Écrivez à
+[tech@lafourmiliere-benevolat.fr](mailto:tech@lafourmiliere-benevolat.fr).
+Membres de l’organisation : voir le [guide de contribution](https://github.com/lafourmiliere-benevolat/.github/blob/master/CONTRIBUTING.md).
