@@ -7,6 +7,8 @@ in the organization; a repository's own `CONTRIBUTING.md` takes precedence.
 
 For questions about the association or volunteering, email
 [bienvenue@lafourmiliere-benevolat.fr](mailto:bienvenue@lafourmiliere-benevolat.fr).
+For technical questions, email
+[tech@lafourmiliere-benevolat.fr](mailto:tech@lafourmiliere-benevolat.fr).
 Issues are for bugs and changes to the code.
 
 ## Issues
