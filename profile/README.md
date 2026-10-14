@@ -1,4 +1,6 @@
-# La Fourmilière
+<p align="center">
+  <img src="/profile/logo.png" width="400" alt="La Fourmilière" />
+</p>
 
 **La communauté qui rend le bénévolat fun et facile.**
 
